@@ -1,0 +1,569 @@
+
+*{  				margin: 0;
+				    padding: 0;
+					box-sizing: border-box;
+				}
+    
+
+	
+	.container{ width: 90%;
+				margin: 0 auto;
+				padding: 0 15px;
+	}
+			
+			
+	.row{  display: flex;
+           flex-wrap:wrap;
+		   padding-left: 0 -15px;
+		   padding-right: 0 -15px;
+	}
+					
+	.row> *{ width: 100%;
+			padding: 0 15px;	
+							 
+					}
+					
+					.col-lg-1{
+						width: 8.33%
+					}	
+					.col-lg-2{ 
+					width: 16.66%
+					}	
+					.col-lg-3{ 
+					width: 25%
+					}	
+					.col-lg-4{ 
+					width: 33.33%
+					}	
+					.col-lg-5{ 
+					width: 41.66%
+					}	
+					.col-lg-6{ 
+					width: 50%
+					}	
+					.col-lg-7{ 
+					width: 58.33%
+					}	
+					.col-lg-8{
+						width: 66.66%
+					}	
+					.col-lg-9{
+						width: 75%
+					}	
+					.col-lg-10{
+						width: 83.33%
+					}	
+					.col-lg-11{ 
+					width: 91.66%
+					}	
+					.col-lg-12{ 
+					width: 100%
+					}
+			/*===========comman style==================*/
+				.btn{ 
+					display: inline-block;
+					text-decoration: none;
+					color: white;
+					background-color: #00bcd4;
+					
+					font-size: 16px;
+					padding: 10px 23px;
+				}
+				
+				
+				.text-right{ 
+							text-align: right !important;
+				}
+				.align-items-center{
+							
+							align-items: center !important;
+				}
+				:root{
+					--primary-color: #00bcd4;
+					--secondry-color:#333333;
+				}
+		/*-------------nav1 start------------------------*/			
+					
+			.hnav1{ 
+					background-color:black ;
+						
+			}
+			.cont{
+					display: block-inline;
+			}
+			.cont span { 
+						color: white;
+					font-size: 14px;
+					margin-right: 20px;
+					display: inline-block;	
+				
+				
+						
+			}
+			.cont span >a{ 
+						color: white;
+					font-size: 16px;
+					text-decoration: none;
+					
+			}
+			.cont span i{
+						color: #00bcd4;
+						margin-right: 5px;
+			}
+			.cont span >a:hover{ 	
+						color: #00bcd4;
+			}
+		/*-------------nav1 end-------------------------------*/
+		
+		
+		/*-------------nav2 start------------------------------*/
+
+			h1.loga a{
+						display: inline-block;
+						color: black;
+						font-size:34px;
+						text-decoration: none;
+						font-weight: 700;
+						padding: 20px 0;
+						
+			}
+			.menub{ 
+						display: flex;
+						justify-content: flex-end;
+			}
+			.menub .nav-link a{
+						display: block;
+						text-decoration: none;
+						color: black;
+						font-size: 16px;
+						padding-left: 20px;
+			}	
+				.nav-link a{
+								display: flex;
+								align-items: center;
+				}		
+			.nav-link a:hover{
+						color: #00bcd4;
+			}
+						
+		/*-------------nav2 end-------------------------------------*/
+		
+		
+		
+		
+		/*-------------wellcom about start------------------------*/
+		
+		
+		
+		
+		.wellcome{ 
+					
+					background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("images/hero.jpg");
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				    padding: 200px 0;
+					margin-bottom: -150px;
+				    	
+		}
+		.well-con h1{
+						color: white;
+						font-size: 52px;
+						font-weight: 700;
+						font-family: 'Raleway', sans-serif;
+		}	
+		.well-con p{
+						color: white;
+						line-height: 50px;
+						padding-bottom: 40px;
+						font-size: 20px;
+		}	
+		
+		
+					
+						
+		
+		.well-btn{
+					position: relative;
+					display: inline-block;
+					padding: 10px  5px 10px 36px;
+		}	
+		.well-btn a.btn{
+						border-radius: 25px;
+						background-color: #588388;
+		}
+		.well-btn a:hover{
+							background-color:#00bcd4;
+		}
+		.well-btn > i{
+						position: absolute;
+						top: 5px;
+						left: 11px;
+						border: 1px solid #00bcd4;
+						height: 50px;
+						width: 50px;
+						border-radius: 50%;
+						color: white;
+						text-align: center;
+						line-height: 50px;
+						background-color:#00bcd4;
+					}					
+		.why-chooes{ 	
+			
+					padding: 20px 0;
+				
+		}
+		.why-c{	
+				
+				
+				background-color:#00bcd4;
+				color: white;
+				border-radius: 10px;
+				padding: 15px 30px;	
+				text-align: center;
+				
+		}
+			.why-c h3{
+						font-size: 30px;
+						font-weight: 500;
+						padding: 10px 10px;
+						text-align: left;
+						font-family: 'Raleway', sans-serif;
+			}		
+			.why-c p{
+						padding: 20px 10px;
+						text-align: left;
+						
+			}		
+		
+			.why-c a{	
+						display: inline-block;
+						 
+						background-color: #43cfd7;
+						text-decoration: none;
+						padding: 10px 15px;
+						border-radius: 25px;
+						color: white;
+						text-align: center;
+									
+			}
+			.why-c i{
+						margin-left: 10px;
+			}
+			.why-c a:hover{ 
+							color:#00bcd4;
+							background-color: white;
+							
+			}
+			
+			.why-con{
+				
+				height: 100%;
+				background-color:white;
+				border-radius: 10px;
+				padding: 30px 30px;	
+				text-align: center;
+				box-shadow: 0 0 10px #999;
+				
+		}
+		.why-con h5{
+						font-size: 20px;
+						font-weight: 300;
+						padding: 10px 10px;
+		}
+		.why-con p{
+					color: #999;
+		}
+		
+			.about{
+					
+					padding: 80px 0;
+					background-color:#00bcd424;
+			}
+			.about-con h5{
+					color: #999;
+					font-size: 16px;
+					margin-bottom: 20px;
+			}
+			.about-con h2{
+					color: black;
+					font-size: 30px;
+					font-weight:600;
+					margin-bottom: 20px;
+			}
+			.about-con p{
+							margin-bottom: 30px;
+							
+			}
+			.about-con h3{
+							font-size: 18px;
+							font-weight: 500;
+							margin-bottom: 15px;
+			}
+			
+			.about-i iconify-icon {
+						width: 60px;
+						height: 60px;
+						border: 1px solid #00bcd4;
+						background-color: white;
+						border-radius: 50%;
+						text-align: center;
+						padding: 4px 4px;
+						margin: 0 20px;
+			}
+			.about-i iconify-icon:hover{
+										background-color: #43cddeed;
+										
+			}
+			.about-p p{
+						font-size: 12px;
+			}
+						
+		.about-img{
+					background-image: url("images/about.jpg");
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					
+		}
+			
+		.play-i	a:hover{ font-size: 30px;
+			}
+			
+		
+		.about-items{
+						display:flex;
+        }
+		
+		.about-client{
+						padding: 50px 10px;
+		}
+		
+	
+		.client img{
+						width: 100%;
+						height: auto;
+						filter: grayscale(1);
+						opacity: 0.5;
+		}
+		.client:hover img{
+						filter: grayscale(0);
+						opacity: 1;
+		}
+		
+		.client{
+				padding: 10px 25px;
+				margin-bottom: 10px;
+		}
+		
+		.circle{
+				text-align: center;
+				margin-left: 5px;
+		}
+		.circle span{
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border: 1px solid var(--primary-color);
+				border-radius: 50%;
+				background-color: white;
+				margin-top: 30px;
+		}
+		.circle span:hover{
+					background-color:var(--primary-color);
+		}
+		.circle .active{
+				background-color:var(--primary-color);
+		}
+		.circle span{ 
+				margin: 0 5px;
+		}
+		
+		/*-------------wellcom  about end-------------------------------------*/
+		
+		
+		
+		/*-------------serivce start------------------------*/
+		
+		.service{ background-color:#00bcd424;
+		
+		}
+		.service-sect{ 
+					text-align: center;
+		}
+		.service-sect h2{
+				font-size: 32px;
+				font-weight: 500;
+				color: black;
+				padding-top: 80px;
+				margin-bottom: 30px;
+				font-family: 'Poppins', sans-serif;
+		}
+		
+		.service-sect p{
+			margin-bottom: 30px;
+		}
+ .service-boxi{
+			background-color: white;
+			margin-top: 50px;
+			position: relative;
+			padding: 45px 20px 30px;
+			box-shadow:0 0 10px #999;
+			text-align: center;
+			
+		}
+		.service-boxi .service-icon{
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			width: 60px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			font-size: 23px;
+			color:#fff;
+			transform:translatex(-50%);	
+			z-index:1;
+			padding: 14px 5px;
+		}
+		 .service-icon:after{
+			content:""; 
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 1px solid var(--primary-color);
+			border-radius: 50%;
+			background: var(--primary-color);	
+			z-index:-1;
+			transition: all 0.2s ease;
+		}
+		.service-boxi h3 a{
+			display: inline-block;
+			text-decoration: none;
+			font-size: 22px;
+			margin-bottom: 20px;
+			color: #635551;
+		}
+		.service-boxi:hover .service-icon:after{
+			transform: scale(1.2);
+			background:#fff ;
+		}
+		.service-boxi:hover .service-icon, .service-boxi:hover h3 a{
+			color:var(--primary-color);
+		}
+		
+				
+		.service-boxi h3{ 
+				color: black;
+				font-size: 22px;
+				font-weight: 500;
+			
+		}
+		.service-boxi p{
+			font-size: 14px;
+			padding: 20px 0 10px;
+		}
+		.ser1{ 	
+				background-color: ;
+				height: 200px;
+				margin-bottom: 20px;
+				
+		}
+
+
+		.serv{
+				
+				height: 300px;
+				margin-bottom: 20px;
+				padding: 0 20px;
+				padding-top: 150px;
+		}		
+		
+		
+		.service1{ 
+				background-color: black;
+		}
+
+	
+				
+		}		
+		/*-------------serivce end-------------------------------*/
+		
+		/*-----------Portfolio start------------------------*/
+		
+		
+		.Portfolio { 
+					background-color: yellow;
+					
+		}			
+		/*=-----------Portfolio end-------------------------------*/ 
+
+		/*------------team start------------------------*/
+		
+		.team{ 
+				background-color: red;
+				height: 250px;
+				
+		}		
+		
+		/*-----------team end-------------------------------*/
+		
+		/*------------pricingstart------------------------*/
+		
+		.pricing{ 
+		
+					background-color: black;
+					
+		}	
+		/*------------pricing end------------------------*/
+		
+		
+		/*----------faq start------------------------*/
+		
+		.faq{ 	
+				background-color: lightgray;
+				
+		}	
+		/*----------faq end------------------------*/
+		
+		/*---------contact start------------------------*/
+		
+		.contact{ 
+					background-color: gray;
+					
+		}
+		.a1{ 	
+				background-color: red;
+				height: 250px;
+				margin: 20px 0;
+		}
+		
+		.foot{ 	
+				background-color: red;
+				height: 50px;
+		}
+
+			
+		.footer{ 
+				background-color: yellow;
+				height: 20px;
+				margin: 10px 0;
+				width: 150px;
+				
+		}	
+		
+		.footer1{ 
+				background-color: yellow;
+				height: 20px;
+				margin: 10px 0;
+				width: 150px;
+				margin-left: 350px;
+				
+		}		
+		
+		/*-------------contact end------------------------*/
